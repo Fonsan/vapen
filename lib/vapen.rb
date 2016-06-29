@@ -93,7 +93,6 @@ module Vapen
       end
     end
   end
-  class VPNAutoConnector < SCUtil::VPNAutoConnector
-  end
+  VPNAutoConnector = SCUtil::VPNAutoConnector
 end
 
